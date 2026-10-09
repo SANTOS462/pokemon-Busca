@@ -1,0 +1,219 @@
+body{
+
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: rgb(10, 189, 216);
+}
+
+.logo{
+ width: 208px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -150px; /* Puxa a logo do Pokémon para cima (aumente o valor negativo se quiser subir mais) */
+}
+
+.bola{
+    width: 36px;
+    height: 29px;
+
+
+  position: absolute;
+    right: 84px;
+    top: 14px;
+    width: 20px;
+
+}
+.picachu{
+   width: 140px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -15px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border: 12px;
+    border-radius: 8%;
+
+
+     position: absolute;
+    right: 20px;
+    top: 66px;
+
+    
+    
+}
+button{
+    width: 200px;
+    height: 40px;
+    border: 12px;
+    border-radius: 8%;
+    background-color: rgb(196, 255, 3);
+cursor: pointer;
+
+    
+     position: absolute;
+    right: 20px;
+    top: 114px;
+    
+
+}
+
+.sapo{
+    width: 122px;
+    height: 130px;
+
+    margin-top: -198px;
+
+     right: 100px;
+    position: absolute;
+    top:  578px;
+    
+
+
+}
+.borboleta{
+    width: 98px;
+    height: 110px;
+
+}
+p{
+    position: absolute;
+    right: 110px;
+    top: 20px;
+    margin: 0;
+    
+}
+
+.dragao{
+    display: block;
+    margin: 0 auto;
+     top: 10px;
+
+}
+nav{
+     background-color: #ffcc00;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+
+    
+}
+.texto{
+    border: 2px solid rgb(217, 249, 14);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.info-grupo{
+    display: flex;
+    flex-direction: row; /* Altera de coluna para linha (lado a lado) */
+    align-items: center; 
+    gap: 20px; /* Distância entre o número e o peso */
+
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Garante que os parágrafos dentro do grupo não fiquem com position absolute */
+.info-grupo p {
+    position: static; 
+    margin: 0;
+
+
+
+}
+
+body > p {
+    position: absolute;
+    right: 110px;
+    top: 20px;
+    margin: 0;
+
+
+}
+#resultado p {
+    position: static; 
+    margin: 5px 0;
+
+    display: block;
+    margin: 0 auto;
+}
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo no meio */
+    justify-content: center;
+    text-align: center;
+    
+    /* Estilos do Cartão */
+    background-color: white;        /* Fundo branco limpo */
+    border: 3px solid #333;         /* Borda escura destacada */
+    border-radius: 15px;            /* Cantos bem arredondados */
+    padding: 20px;                  /* Espaço interno para o conteúdo não colar nas bordas */
+    width: 230px;                   /* Largura fixa do cartão */
+    margin: 20px auto;              /* Centraliza o cartão na tela e dá espaço em cima */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra elegante para dar efeito 3D */
+
+
+}
+
+/* Deixa o nome do Pokémon com a primeira letra maiúscula e destaque */
+#resultado h2 {
+    text-transform: capitalize;
+    margin-top: 0;
+    color: #333;
+}
+
+.tartaruga{
+    width: 98px;
+    height: 110px;
+margin-left: 20px;
+margin-top: -22px;
+}
+
+#resultado img {
+    width: 140px;          /* Aumentou um pouco a largura (antes estava menor) */
+    height: 140px;         /* Aumentou um pouco a altura para manter proporcional */
+    margin-top: -8px;      /* Mantém o ajuste de subir um pouco */
+    margin-left: 15px;     /* Mantém o ajuste de ir para a direita */
+}
+
+.rodape-pokemon {
+    border-top: 2px solid #030bf8; 
+    padding-top: 15px;             
+    margin-top: 30px;              
+    color: #0e1102;                
+    font-family: sans-serif;       
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center; /* ALTERADO: Junta o texto e os ícones no centro da tela */
+    align-items: center;     /* Alinha o texto e os ícones na mesma altura */
+    gap: 20px;               /* Dá um espaço de 20px entre o texto e o bloco de ícones */
+}
+
+
+
+.container-redes {
+    display: flex;         /* Força todos os elementos filhos a ficarem na horizontal */
+    flex-direction: row;   /* Garante o alinhamento em linha (horizontal) */
+    gap: 12px;             /* Mantém o espaço de 10px entre o Instagram e o YouTube */
+    align-items: center;  
+     text-decoration: none; 
+
+     
+}
