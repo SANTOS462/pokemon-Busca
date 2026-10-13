@@ -101,7 +101,8 @@ nav{
     display: flex;
     justify-content: center;
     gap: 40px;
-
+    cursor: pointer;
+    
 
     
 }
@@ -217,3 +218,10 @@ margin-top: -22px;
 
      
 }
+
+.github{
+    width: 33px;
+    height: 33px;
+}
+
+
