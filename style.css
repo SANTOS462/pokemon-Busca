@@ -220,8 +220,38 @@ margin-top: -22px;
 }
 
 .github{
-    width: 33px;
-    height: 33px;
+    width: 27px;
+    height: 28px;
 }
 
 
+.git1{
+      width: 27px;
+    height: 28px;
+}
+
+.card{
+         width: 100%;
+    padding: 14px 16px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 19px;
+    background: transparent;
+
+
+       border-color: #ff0558;
+    box-shadow: 0 0 12px rgba(232, 120, 1, 0.65);
+}
+.card a{
+    text-decoration: none;
+    color: #c1f007;
+    box-shadow: #ff0558;
+
+}
+
+@media (max-width: 500px) {
+    .container-input {
+        width: 90%;
+    }
+}

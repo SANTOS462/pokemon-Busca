@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #1e293b;
+            background: #f8fafc;
+        }
+
+        header {
+            background: #1e293b;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover,
+        nav a.ativo {
+            color: #38bdf8;
+        }
+
+        .conteudo {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+        }
+
+        .conteudo h1 {
+            font-size: clamp(30px, 5vw, 48px);
+            margin-bottom: 20px;
+        }
+
+        .conteudo p {
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 650px;
+            margin-bottom: 30px;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .botao:hover {
+            background: #0369a1;
+        }
+
+        footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Minha Empresa</h2>
+
+        <nav>
+            
+        <a href="inicio.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <h1>Bem-vindo à nossa página!</h1>
+
+            <p>
+                Conheça nossa empresa, nossos objetivos
+                e as soluções que oferecemos.
+                Estamos aqui para atender você com qualidade,
+                dedicação e confiança.
+            </p>
+
+            <a href="servicos.html" class="botao">
+                Conheça nossos serviços
+            </a>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+
+
+    <footer>
+        <p>&copy; 2026 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
